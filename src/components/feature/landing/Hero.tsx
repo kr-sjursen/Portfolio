@@ -4,7 +4,7 @@ export default function Hero() {
       className="flex min-h-[calc(100svh-5.5rem)] flex-col items-center justify-center gap-4 py-12 text-center"
       aria-label="Intro"
     >
-      <h1 className="t-title order-2 text-[clamp(2.2rem,5vw,4.5rem)]">
+      <h1 className="order-2">
         Building polished digital experiences.
       </h1>
       <p className="t-eyebrow u-muted order-1">Full-Stack Developer</p>

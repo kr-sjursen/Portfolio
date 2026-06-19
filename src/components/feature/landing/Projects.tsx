@@ -11,10 +11,7 @@ export default function Projects() {
       className="u-surface p-5 md:p-6"
       aria-labelledby="projects-heading"
     >
-      <h2
-        id="projects-heading"
-        className="t-title text-[clamp(1.2rem,2.1vw,1.6rem)]"
-      >
+      <h2 id="projects-heading">
         Projects
       </h2>
       <p className="t-copy u-muted mt-2">

@@ -11,10 +11,7 @@ export default function About() {
       className="u-surface p-5 md:p-6"
       aria-labelledby="about-heading"
     >
-      <h2
-        id="about-heading"
-        className="t-title mb-2 text-[clamp(1.2rem,2.1vw,1.6rem)]"
-      >
+      <h2 id="about-heading">
         About
       </h2>
       {/*<p className="section-copy muted">

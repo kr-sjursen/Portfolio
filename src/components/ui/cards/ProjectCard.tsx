@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { ProjectItem } from "@/util/projects";
+import Button from "@/components/buttons/Button";
 
 type ProjectCardProps = {
   project: ProjectItem;
@@ -17,7 +18,7 @@ export default function ProjectCard({ project, titleTag = "h3" }: ProjectCardPro
           href={project.projectPath}
           className="flex h-full flex-col gap-2 md:col-start-1 md:row-start-1"
         >
-          <TitleTag className="t-title mb-1 text-[1.2rem] leading-[1.3] text-[color:var(--text)]">
+          <TitleTag className="mb-1 leading-[1.3] text-[color:var(--text)]">
             {project.title}
           </TitleTag>
 
@@ -58,13 +59,15 @@ export default function ProjectCard({ project, titleTag = "h3" }: ProjectCardPro
         </div>
 
         <div className="relative z-[1] flex flex-wrap gap-2.5 md:col-start-1 md:row-start-2">
-          <Link href={project.projectPath} className="u-pill">
-            Open project
-          </Link>
+          <Button
+            Path={project.projectPath}
+            Text="Open project"
+          />
           {project.hasCaseStudy && (
-            <Link href={project.caseStudyPath} className="u-pill">
-              Read case study
-            </Link>
+            <Button
+              Path={project.caseStudyPath}
+              Text="Read case study"
+            />
           )}
         </div>
       </div>

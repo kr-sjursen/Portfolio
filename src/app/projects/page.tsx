@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <main id="main" className="u-container py-8 md:py-12">
       <header className="u-grid mb-6 gap-4 md:mb-8">
-        <h1 className="t-title text-[clamp(2rem,5vw,4rem)]">Projects</h1>
+        <h1>Projects</h1>
         <p className="t-eyebrow u-muted">Selected Work</p>
         <p className="t-copy u-muted max-w-[60ch]">
           A full overview of projects, experiments, and case studies.
