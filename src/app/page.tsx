@@ -1,7 +1,7 @@
-import Hero from "@/components/feature/Hero";
-import Projects from "@/components/feature/Projects";
-import About from "@/components/feature/About";
-import Contact from "@/components/feature/Contact";
+import Hero from "@/components/feature/landing/Hero";
+import Projects from "@/components/feature/landing/Projects";
+import About from "@/components/feature/landing/About";
+import Contact from "@/components/feature/landing/Contact";
 
 export default function Home() {
   return (

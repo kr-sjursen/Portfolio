@@ -9,12 +9,15 @@ export default function Footer() {
       aria-label="Site footer"
     >
       <div className="footer-inner u-container u-grid py-5">
-        <div className="footer-brand-col flex flex-wrap items-center justify-start gap-1">
+        <Link
+          href="/"
+          className="footer-brand-col flex flex-wrap items-center justify-start gap-1"
+        >
           <p className="m-0 font-bold tracking-wide">Kr-sjursen</p>
           <p className="t-copy u-muted m-0 text-[.92rem]">
             Full-Stack developer building thoughtful web interfaces.
           </p>
-        </div>
+        </Link>
 
         <nav
           className="footer-nav-col flex flex-wrap items-center justify-center gap-3"

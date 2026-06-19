@@ -61,9 +61,11 @@ export default function ProjectCard({ project, titleTag = "h3" }: ProjectCardPro
           <Link href={project.projectPath} className="u-pill">
             Open project
           </Link>
-          <Link href={project.caseStudyPath} className="u-pill">
-            Read case study
-          </Link>
+          {project.hasCaseStudy && (
+            <Link href={project.caseStudyPath} className="u-pill">
+              Read case study
+            </Link>
+          )}
         </div>
       </div>
     </li>

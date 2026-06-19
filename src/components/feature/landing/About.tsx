@@ -1,4 +1,10 @@
 export default function About() {
+  // TODO: Write down what i am passionate about, and why that is.
+  // TODO: Add something about my skillset, and what i enjoy building.
+  // TODO: Add a location indicator.
+  // TODO: Add a "currently doing this" widget.
+  // TODO: Add a widget about my education.
+  // TODO: Add a widget about the languages i speak and write.
   return (
     <section
       id="about"
